@@ -1903,7 +1903,7 @@ function renderFilteredLogs() {
     return;
   }
   container.innerHTML = displayLogs.map(log => buildLogItemHTML(log)).join('') +
-    (hasMore ? `<div style="text-align:center; padding:12px 0; font-size:12px; color:var(--gray-400);">월을 선택하면 해당 월의 전체 기록을 볼 수 있습니다.</div>` : '');
+    (hasMore ? `<div style="text-align:center; padding:12px 0; font-size:12px; color:var(--gray-400);">최근 훈련 기록 10개 입니다</div>` : '');
 }
 
 let editSport = 'swim';
